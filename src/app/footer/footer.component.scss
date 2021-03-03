@@ -1,0 +1,34 @@
+$size: 10pt;
+
+mat-toolbar {
+  text-align: center;
+}
+
+a {}
+
+.mat-icon {
+  font-size: $size;
+  height: $size;
+  width: $size;
+  vertical-align: middle;
+  color: #f44336;
+}
+
+fa-icon {
+  padding: 0 8px;
+  color: white;
+}
+
+.top {
+  padding-top: 10px;
+  font-size: 20pt;
+  width: 100%;
+}
+
+.bottom {
+  font-size: $size;
+}
+
+.content {
+  width: 100%;
+}
