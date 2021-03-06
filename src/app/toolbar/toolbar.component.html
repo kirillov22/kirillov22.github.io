@@ -1,3 +1,7 @@
-<mat-toolbar>
-  <span>Kirill Kirillov</span>
+<mat-toolbar color="primary">
+  <div fxLayout="row" fxLayoutAlign="space-evenly center">
+    <span><a routerLink="/" routerLinkActive="active-link" [routerLinkActiveOptions]="{exact: true}">Home</a></span>
+    <span><a routerLink="/interests"routerLinkActive="active-link">Interests</a></span>
+    <span><a routerLink="/projects"routerLinkActive="active-link">Projects</a></span>
+  </div>
 </mat-toolbar>
