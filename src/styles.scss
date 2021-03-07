@@ -1,4 +1,4 @@
-/* You can add global styles to this file, and also import other style files */
+@import './variables.scss';
 
 html,
 body {
@@ -16,4 +16,12 @@ body {
   text-align: center;
   margin: auto;
   padding: 8px;
+}
+
+.sub-heading {
+  font-size: 14pt;
+  text-align: center;
+  color: $grey;
+  margin: auto;
+  padding: 10px;
 }
