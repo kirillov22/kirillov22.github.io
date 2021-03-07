@@ -26,7 +26,7 @@ h3 {
   content: '';
   width: 4px;
   height: 100%;
-  background-color: black;
+  background-color: lighten($grey, 20%);
   top: 0;
   bottom: 0;
   margin-left: 17px;
