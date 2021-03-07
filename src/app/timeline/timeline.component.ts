@@ -27,7 +27,7 @@ export class TimelineComponent implements OnInit {
       },
       {
         date: '2016',
-        summary: 'University Of Canterbury - Bachelor of Science in Computer Science',
+        summary: 'University of Canterbury - Bachelor of Science in Computer Science',
         description: [
           'Started university where I really developed my passion for software development and computer science',
           'Learnt how to study independently, work hard to achieve my goals and many other valuable lessons.',

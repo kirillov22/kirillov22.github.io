@@ -1,1 +1,11 @@
-<div fxFlex>Interests</div>
+<div fxFlex>
+  <div fxLayout="column" fxLayoutAlign="space-around center">
+    <mat-card *ngFor="let interest of interests">
+      <img src="../../assets/{{interest.icon}}">
+      <mat-card-content>
+        <h3>{{interest.title}}</h3>
+        <p>{{interest.description}}</p>
+      </mat-card-content>
+    </mat-card>
+  </div>
+</div>
