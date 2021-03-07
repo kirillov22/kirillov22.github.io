@@ -1,0 +1,37 @@
+@import '../../variables.scss';
+
+.mugshot {
+  border-radius: 100%;
+  box-shadow: 0 0 2px #888;
+  height: 250px;
+  width: 250px;
+  padding: 8px;
+  background-color: lighten($primary, 30%);
+}
+
+mat-card {
+  margin: 10px;
+}
+
+mat-card-content {
+  padding: 20px;
+}
+
+p {
+  text-align: justify;
+}
+
+h1 {
+  font-size: 30pt;
+  text-align: center;
+  margin: auto;
+  padding: 8px;
+}
+
+h3 {
+  font-size: 14pt;
+  text-align: center;
+  color: $grey;
+  margin: auto;
+  padding: 10px;
+}

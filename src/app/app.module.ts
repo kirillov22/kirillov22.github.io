@@ -14,6 +14,9 @@ import { MatIconModule } from '@angular/material/icon';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { ProjectsComponent } from './projects/projects.component';
+import { MatCardModule } from '@angular/material/card';
+import { MatExpansionModule } from '@angular/material/expansion';
+import { TimelineComponent } from './timeline/timeline.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +26,8 @@ import { ProjectsComponent } from './projects/projects.component';
     InterestsComponent,
     NotFoundComponent,
     FooterComponent,
-    ProjectsComponent
+    ProjectsComponent,
+    TimelineComponent,
   ],
   imports: [
     BrowserModule,
@@ -32,9 +36,11 @@ import { ProjectsComponent } from './projects/projects.component';
     MatToolbarModule,
     MatIconModule,
     FlexLayoutModule,
-    FontAwesomeModule
+    FontAwesomeModule,
+    MatCardModule,
+    MatExpansionModule,
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

@@ -1,0 +1,19 @@
+<div id="timeline" fxLayout="column">
+  <div class="timelineEvent" fxLayout="row" *ngFor="let event of timeLineEvents">
+  <div fxFlex="10%" class="left-pad">
+    <div class="circle"></div>
+    <div class="line"></div>
+  </div>
+  <mat-card fxFlex>
+    <mat-card-content>
+      <h1>{{event.date}}</h1>
+      <h3 *ngIf="event.summary">{{event.summary}}</h3>
+      <ul>
+        <li *ngFor="let eventDescription of event.description">
+          <span>{{eventDescription}}</span>
+        </li>
+      </ul>
+    </mat-card-content>
+  </mat-card>
+  </div>
+</div>
