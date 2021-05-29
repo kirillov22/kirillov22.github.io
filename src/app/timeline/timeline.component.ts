@@ -16,6 +16,14 @@ export class TimelineComponent implements OnInit {
         description: ['Who knows what the future will hold or what opportunities could be right around the corner?'],
       },
       {
+        date: '2021',
+        summary: 'Ströer Labs NZ - Backend Java Engineer',
+        description: [
+          'Pivoted to a new and unfamiliar role as a Java engineer (and other JVM technologies).',
+          'Working on the Supply-Side Platform (SSP) to sell advertising spaces online.',
+        ],
+      },
+      {
         date: '2018',
         summary: 'Verizon Connect - Software Engineer',
         description: [
