@@ -37,7 +37,7 @@ export class InterestsComponent implements OnInit {
         description:
           'I love listening to music whether its to hype myself up with some rock or rap or whether its to relax and unwind with some indie hits or liquid drum and bass. ' +
           'I enjoy most genres and always enjoy discovering new music. I am also a big fan of Kiwi artists such as L.A.B, BENEE, SIX60, Shapeshifter ' +
-          "and some lesser known ones like Mako Road, Soaked Oats, Marlon's dreaming and Albion Place",
+          "and some lesser known ones like Mako Road, Soaked Oats, Marlon's Dreaming and Albion Place",
         icon: 'music.jpg',
       },
       {
@@ -50,9 +50,9 @@ export class InterestsComponent implements OnInit {
         title: 'Technology',
         description:
           'I have been fascinated by technology from a young age. Growing up I always thought I would be an engineer or scientist because I was always curious about how things worked and ' +
-          'I always loved to take things apart and see what was inside and how they worked. However, my passion for technology really started the day my day brought home a computer. ' +
-          'I remember I would often watch him play games on the computer and when I got older I started playing games myself and eventually learned about Visual Basic so I started making some small ' +
-          'GUI apps using Visual Studio that would show different colours on the screen or calculate your age. Fast-forward a few years and now I am doing almost the same thing, but in other languages',
+          'I always loved to take things apart and see what was inside and how they worked. However, my passion for technology really started the day my dad brought home a computer. ' +
+          'I remember I would often watch him play games on the computer and when I got older I started playing games myself. Eventually I learned about Visual Basic so I started making some small ' +
+          'GUI apps using Visual Studio that would show different colours on the screen or calculate your age. Fast-forward a few years and now I am doing almost the same thing but in other languages',
         icon: 'monitor.jpg',
       },
     ];
