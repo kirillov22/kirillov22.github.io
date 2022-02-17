@@ -4,11 +4,13 @@ import { AboutMeComponent } from './about-me/about-me.component';
 import { InterestsComponent } from './interests/interests.component';
 import { NotFoundComponent } from './not-found/not-found.component';
 import { ProjectsComponent } from './projects/projects.component';
+import { BlogComponent } from './blog/blog.component';
 
 const routes: Routes = [
   { path: '', component: AboutMeComponent },
   { path: 'interests', component: InterestsComponent },
   { path: 'projects', component: ProjectsComponent },
+  { path: 'blog', component: BlogComponent },
   { path: '**', component: NotFoundComponent },
 ];
 

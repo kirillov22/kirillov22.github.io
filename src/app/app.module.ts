@@ -17,6 +17,8 @@ import { ProjectsComponent } from './projects/projects.component';
 import { MatCardModule } from '@angular/material/card';
 import { MatExpansionModule } from '@angular/material/expansion';
 import { TimelineComponent } from './timeline/timeline.component';
+import { BlogComponent } from './blog/blog.component';
+import { HighlightModule, HIGHLIGHT_OPTIONS } from 'ngx-highlightjs';
 
 @NgModule({
   declarations: [
@@ -28,6 +30,7 @@ import { TimelineComponent } from './timeline/timeline.component';
     FooterComponent,
     ProjectsComponent,
     TimelineComponent,
+    BlogComponent,
   ],
   imports: [
     BrowserModule,
@@ -39,8 +42,19 @@ import { TimelineComponent } from './timeline/timeline.component';
     FontAwesomeModule,
     MatCardModule,
     MatExpansionModule,
+    HighlightModule,
   ],
-  providers: [],
+  providers: [
+    {
+      provide: HIGHLIGHT_OPTIONS,
+      useValue: {
+        coreLibraryLoader: () => import('highlight.js/lib/core'),
+        languages: {
+          kotlin: () => import('highlight.js/lib/languages/kotlin'),
+        }
+      }
+    }
+  ],
   bootstrap: [AppComponent],
 })
 export class AppModule {}
