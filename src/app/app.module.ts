@@ -17,7 +17,6 @@ import { ProjectsComponent } from './projects/projects.component';
 import { MatCardModule } from '@angular/material/card';
 import { MatExpansionModule } from '@angular/material/expansion';
 import { TimelineComponent } from './timeline/timeline.component';
-import { BlogComponent } from './blog/blog.component';
 import { HighlightModule, HIGHLIGHT_OPTIONS } from 'ngx-highlightjs';
 
 @NgModule({
@@ -30,7 +29,6 @@ import { HighlightModule, HIGHLIGHT_OPTIONS } from 'ngx-highlightjs';
     FooterComponent,
     ProjectsComponent,
     TimelineComponent,
-    BlogComponent,
   ],
   imports: [
     BrowserModule,
